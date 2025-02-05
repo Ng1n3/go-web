@@ -11,7 +11,7 @@ import (
 )
 
 type user struct {
-	Firstname string
+	Firstname string 
 	Lastname  string
 	Username  string
 	Password  []byte
