@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+         const codes = [
+           {"code": 200, "description": "StatusOK"},
+           {"code": 301, "description": "StatusMovedPermanently"},
+           {"code": 302, "description": "StatusMovedPermanently"},
+           {"code": 303, "description": "StatusFound"},
+           {"code": 307, "description": "StatusSeeOther"},
+           {"code": 400, "description": "StatusTemporaryRedirect"},
+           {"code": 401, "description": "StatusBadRequest"},
+           {"code": 402, "description": "StatusUnauthorized"},
+           {"code": 403, "description": "StatusForbidden"},
+           {"code": 404, "description": "StatusNotFound"},
+           {"code": 405, "description": "StatusMethodNotAllowed"},
+           {"code": 418, "description": "StatusTeapot"},
+           {"code": 500, "description": "StatusInternalServerError"},
+         ]
+
+         const alCodes = JSON.stringify(codes)
+         document.write(alCodes);
+    </script>
+  </body>
+</html>
