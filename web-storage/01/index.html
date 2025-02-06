@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <script>
+      localStorage.setItem('favouriteColor', 'red');
+      const taste = localStorage.getItem('favouriteColor');
+      console.log(taste);
+      localStorage.removeItem('favouriteColor');
+      const taste2 = localStorage.getItem('favouriteColor')
+      console.log('new taste is: ', taste2);
+    </script>
+  </body>
+</html>
